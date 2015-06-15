@@ -3,7 +3,7 @@ require_once('inc/class.Strawpoll.php');
 set_time_limit(0);
 
 if($argc < 3) {
-    echo "Usage: php vote.php <VoteID> <Option> <Amount>\n";
+    echo "Usage: php vote.php 4627467 1 100\n";
 }
 else {
     $id     = $argv[1];
